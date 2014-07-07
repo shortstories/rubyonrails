@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+gem 'country_select'
+gem 'bootstrap-will_paginate'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 

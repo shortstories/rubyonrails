@@ -1,4 +1,6 @@
 Rcafe::Application.routes.draw do
+  resources :bulletins
+
   resources :posts
 
 root 'welcome#index'
