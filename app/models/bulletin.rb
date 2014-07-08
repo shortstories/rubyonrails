@@ -1,3 +1,6 @@
 class Bulletin < ActiveRecord::Base
-	has_many :posts, dependent: :destroy
+  extend FriendlyId
+  friendly_id :title
+
+  has_many :posts, dependent: :destroy
 end

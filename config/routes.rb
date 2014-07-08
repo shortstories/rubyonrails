@@ -1,7 +1,7 @@
 Rcafe::Application.routes.draw do
-  resources :bulletins
-
-  resources :posts
+  resources :bulletins do
+    resources :posts
+  end
 
 root 'welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.

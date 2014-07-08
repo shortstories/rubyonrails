@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
-
+gem 'mini_magick'
+gem 'carrierwave'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'country_select'
 gem 'bootstrap-will_paginate'
+gem 'friendly_id', '~> 5.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
