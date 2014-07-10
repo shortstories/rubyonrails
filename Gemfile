@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem 'actionpack', '>= 4.0.0'
+gem 'activesupport', '>= 4.0.0'
 gem 'mini_magick'
 gem 'carrierwave'
 gem 'bootstrap-sass', '~> 3.2.0'

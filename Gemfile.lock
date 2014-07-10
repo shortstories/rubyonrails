@@ -134,6 +134,8 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  actionpack (>= 4.0.0)
+  activesupport (>= 4.0.0)
   autoprefixer-rails
   bootstrap-sass (~> 3.2.0)
   bootstrap-will_paginate
